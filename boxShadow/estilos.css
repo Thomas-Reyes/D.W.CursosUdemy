@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+
+.img{
+    display: block;
+    width: 400px;
+    margin: 30px auto;  
+    box-shadow: 3px 3px 10px rgba(0,0,0, .75)  ; 
+   
+}
+
+.box{
+  
+  width: 100px;
+  height: 100px;
+  margin : 20px;
+
+  /* 
+~EXPLICACIÓN DE LOS VALORES DE LA PROPIEDAD BOX-SHADOW~
+
+h-offset == desplazamiento "horizontal" de la sombra
+v-offset == desplazamiento "Vertical" de la sombra
+blur == difuminado de la sombra
+ocupara el color definido en la propiedad color
+spread == extensión de la sombra
+color == color de la sombra
+  */
+   
+ 
+ 
+  
+  
+}
+
+
+

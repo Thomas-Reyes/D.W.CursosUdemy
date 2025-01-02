@@ -1,0 +1,43 @@
+ 
+
+
+h2,h3{ /* la "," sirve para realizar el cambio a mas de 1 etiqueta */
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .contenedor #p = especificar la etiqueta padre y que es lo 
+que quieres modificar del hijo, esto puede ser con id o clase */
+ .contenedor #p{ 
+    color: blue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+ }
+
+.contenedor  a  {
+     text-decoration: none;
+        color: firebrick ;
+}
+
+
+.contenedor>a{ /* para modificar solamente a los que son hijos directos al padre */
+    color: rgb(255, 101, 101);
+    font-size: 20px;
+    font-weight: bold; /* para poner en negritas */
+}
+
+
+ /* "+" para modificar solamente a hermano 
+  adyasente que especifiquemos */
+p+h2{
+    color: gold;
+}
+
+
+/* cambiara a todos los
+ elementos que esten despues de la etiqueta ej: h3 ..p */
+h3~p{
+    color: rgb(255, 0, 0);
+}
+

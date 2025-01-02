@@ -1,0 +1,80 @@
+
+
+*{
+margin: 0;
+box-sizing: border-box;
+}
+
+
+body{
+font-family: 'Arial', sans-serif;
+}
+ 
+.lista{  
+  
+    background-color: darksalmon;
+}
+
+ul{
+    list-style-type:  none  ;
+    /* list-style-image: url(right-arrow-circle-solid-108.png  ) ; */
+    /*  list-style-type: type imae position;
+     none  =  sin viñetas
+     circle = circulos
+     square = cuadrados
+     decimal = numeros ordenados
+     upper-roman = Numeros romanos en mayusculas
+     lower-roman = Numeros romanos en minusculas
+     lower-alpha = letras en minusculas ordenadas
+     upper-alpha = letras en mayusculas ordenadas
+     lower-greek = letras griegas en minusculas ordenadas
+     armenian = letras del alfabeto armenio
+     georgian = numeración basada en el sistema de numeración georgiano
+     cjk-ideographic = basado en caracteres ideográficos del chino
+     hiragana = basado en caracteres ideográficos del japones
+     katakana = utilizan caracteres japoneses del sistema de escritura katakana 
+    */
+
+     
+    /*  list-style-position:  
+    outside=  fuera del contenedor
+    inside = dentro del contenedor 
+
+     */
+
+}
+
+
+figure{
+    width: 200px;
+    height: 400px ;
+    background-color: crimson;
+    margin: 30px auto;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px 0 rgba(0, 0, 0, 0.349);
+}
+
+.imagen{
+    width: inherit;
+    height: inherit;
+    border-radius: 20px;
+    object-fit: cover;
+    /*
+    object-fit= es el ajuste del objeto/imagen , contiene varias opciones:
+    contain =  ajusta la imagen al contenedor sin recortarla
+    cover = ajusta la imagen al contenedor recortando el exceso
+    fill = ajusta la imagen al contenedor sin importar la relación de aspecto
+    none = no ajusta la imagen al contenedor
+    scale-down = ajusta la imagen al contenedor sin recortarla si es necesario */
+
+
+
+
+}
+
+
+
+
+
+
+

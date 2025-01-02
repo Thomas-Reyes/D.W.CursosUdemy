@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+ }
+
+.gallery{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;/* overflow: hidden =todo los que se sobre salga del contenedor se esconda */
+   
+}
+
+
+
+.gallery h2{
+    margin: 40px 0;
+    font-size: 35px;
+    border-bottom: 4px solid #000000;
+    padding-bottom: 20px;
+
+}
+.container{
+    font-size: 0;/* para que los bordes de la imagen no este visible */
+}
+
+
+.container #img{
+width: 30%;
+height: 280px;
+margin-left: 1.5%;
+margin-right: 1.5%;
+margin-bottom: 20px;
+cursor: pointer; /* para cuando el cursor pase por la imagen cambie su formato visual */
+box-shadow: 6px 6px  10px   rgba(0, 0, 0, .5);
+
+}
+ 
+
+
+
+
+
+

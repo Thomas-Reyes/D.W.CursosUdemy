@@ -1,0 +1,133 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ 
+ .container{
+    width: 90%;
+    height: 500px;
+    margin: 30px auto; 
+    display: flex;
+    padding: 20px;   
+    border: 3px solid #000;
+    gap: 10px;/* separacion */
+   flex-direction: row;
+ 
+   /*   flex-wrap: wrap ;   */
+    
+   /* flex-flow:  column; 
+   *COMENTARIO flex-flow: <DIRECTION WRAP> ;
+    esto hace que se puedan combinar las propiedades flex-direction y flex-wrap en una sola propiedad 
+   !justify-content 
+    nos permite alinear los elementos en el contenedor en el eje principal (del reparto de espacio disponible del main-acxis)*/
+ 
+
+  /*   justify-content:center ; */ 
+   /* *COMENTARIO justify-content: space(around,between,evenly,start,end)
+   ?space-around
+   distribuye el espacio sobrante entre los elementos  
+   ?space-between
+   distribuye el espacio sobrante entre los elementos pero no en los extremos
+   ?space-evenly
+   distribuye el espacio sobrante entre los elementos y en los extremos
+   ?flex-start
+   alinea los elementos al inicio del contenedor
+   ?flex-end
+   alinea los elementos al final del contenedor
+    */
+   
+
+    /* flex-direction: column; */
+   /* *COMENTARIO flex-direction(row,row-reverse,column,column-reverse)
+==================================================
+    !FLEX-DIRECTION:ROW; 
+    main-axis: horizontal izquierda a derecha 
+    cross-axis: vertical arriba a abajo  
+
+    ?FLEX-DIRECTION: ROW-REVERSE
+    main-axis: horizontal derecha a izquierda
+    cross-axis: vertical arriba a abajo
+
+    ?FLEX-DIRECTION: COLUMN;
+    main-axis: vertical arriba a abajo
+    cross-axis: horizontal izquierda a derecha
+
+    ?FLEX-DIRECTION: COLUMN-REVERSE;
+    main-axis: vertical abajo a arriba
+    cross-axis: horizontal izquierda a derecha
+=======================================================
+    !FLEX-WRAP: ;Define si los elementos se ajustan al contenedor o no
+    NOWRAP: no se ajustan
+    WRAP: se ajustan al contenedor y se desplazan hacia abajo
+    WRAP-REVERSE: se ajustan en reversa al contenedor y se desplazan hacia arriba
+
+
+     */
+ 
+   
+   /*  align-items: stretch;
+   *COMENTARIO align-items: center;
+      nos permite alinear los elementos en el contenedor en el eje transversal (del reparto de espacio disponible del cross-acxis)
+      ?align-items: center;
+      alinea los elementos en el centro del contenedor
+      ?align-items: flex-start;
+      alinea los elementos al inicio del contenedor
+      ?align-items: flex-end;
+      alinea los elementos al final del contenedor
+      ?align-items: stretch;
+      estira los elementos para que ocupen todo el alto del contenedor(solo cuando no tienen dimencion declarada)
+      ?align-items: baseline;
+      alinea los elementos por su base
+*/
+  /* align-content=  */  
+
+}
+ 
+
+
+ .item{  
+    background: crimson;
+    color: #fff;
+    font-size: 2rem;
+    line-height: 200px;
+    text-align: center; 
+    flex-basis: 50%; 
+    width: 100px;/* 
+    height: 100%;
+     */
+/* order:; sirve para 
+      cambiar el orden de los elementos en el contenedor(por defecto el valor es 0)
+       
+      initial: valor por defecto
+      inherit: hereda el valor de su padre
+      number: valor numerico que indica el orden del elemento
+      unset: restablece el valor por defecto
+*/
+    
+ }
+  
+/* recondacion de como poner una imagen */
+.figure{
+      flex-basis: 50%;
+      height: 100%;
+      background-image: url(../img/arar.jpg);
+      background-position: center;
+      background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

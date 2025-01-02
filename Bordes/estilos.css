@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+} 
+
+.box{
+    background-color: orangered;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 40px;
+} 
+/*    
+ border:  width style color;
+ 
+distintos bordes
+groove: borde en relieve
+ridge: borde en hundido
+dotted: borde punteado
+dashed: borde guionado
+double: borde doble
+solid: borde solido
+none: sin borde
+hidden: borde oculto
+inset: borde en relieve
+outset: borde en hundido
+initial: valor inicial
+inherit: heredar el valor del padre
+
+ */ 
+
+ /*    border: 10px solid black;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: blue;  
+
+   border-top-style: double;
+    border-top-color: gray;
+    border-top-width: 20px;
+
+    border-right-style: dashed;
+    border-right-color: white;
+    border-right-width: 30px;
+
+    border-bottom-style: solid;
+    border-bottom-color: blue;
+    border-bottom-width: 25px;
+
+    border-left-style: dotted;
+    border-left-color: green;
+    border-left-width: 20px;
+}
+ */
+
+
+.card{
+    margin: 20% auto; 
+    width: 450px;
+    height: 600px; 
+    border: 5px solid black;  
+    padding: 20px 0;
+}
+
+
+.img{
+    display: block;
+    object-fit: cover;
+    width: 200px;
+    height: 200px ;
+    /* para que la imagen no se deforme por las dimenciones definidas */
+    margin: 40px auto; 
+    border-radius: 50% ;
+}
+
+
+.name{
+    padding-top: 100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.cta{
+   background-color: steelblue;
+   padding: 15px  ;
+   width: 150px;
+   border-radius: 10px;
+   text-decoration: none;
+   text-align: center;
+   color: white;
+   margin: 20px auto;
+   display: block;
+}
+
+
+
+

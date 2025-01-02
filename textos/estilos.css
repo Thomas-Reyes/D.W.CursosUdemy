@@ -1,0 +1,164 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+body{
+    font-family: "Raleway", serif;
+    background-image: url(patron\ copy.webp);
+    height: 100vh;
+}
+
+
+
+.card{
+    background-image: 
+    linear-gradient(#98b0f69d,#2a265fa9),url(jigar-panchal-VamLqteS3uo-unsplash\ copy.png); 
+    width: 400px;
+    color: #fff;
+    margin: 40px auto;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .5);
+}
+
+.title{ 
+    font-size: 40px;
+    font-family: "Bebas Neue", serif;
+    border-bottom: 3px solid #fff;
+    padding: 7px; 
+    margin-bottom: 30px;
+}
+
+.text{
+    font-weight: 300;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.bold{
+    font-weight: 1000;
+}
+
+.cta{
+    color: #fff;
+    background: rgb(20, 173, 220);
+    text-decoration: none;
+     display: inline-block;
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 8px 20px;
+    border-radius: 10px;
+;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container{
+    background-color: #fff;
+    width: 30%;
+    height: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .2);
+    text-align: center;
+
+}
+
+.h1{
+    text-align: center;
+}
+
+.imga{
+    width: 250px; 
+}
+
+.copy{
+    /*text-align: justify; justifica el texrto(le da borde a sus costados), pero deja espacios entre palabras */
+    padding: 10px 0;
+    letter-spacing:0,1px ; /* define el espacio que existira entre LETRA */
+    word-spacing:10px ; /* define el espacio que existira entre PALABRA */
+    text-shadow: 3px 3px 6px black ;/* define la sombra de un texto igual que BOX-SHADOW */
+    
+    text-transform: capitalize;
+    /* transformara  el texto 
+    uppercase= transforma el texto en mayusculas
+    lowercase= transforma el texto en minusculas
+    capitalize= transforma la primera letra de cada palabra en mayuscula
+    */
+    line-height: 30px;/* define la altura de cada linea */
+
+    /* 
+    font-variant:  ;
+    font:  ; contiene varias propiedades*/
+    /* 
+    -variant que tiene el valor de "small-caps",
+    que pondra las la letra escrita en mayusculas, 
+    la pondra aun mas grande que las demas.
+    -weight que tiene el valor de "bold",
+     esto es el grosor de la letra/fuente.,
+    -size que tiene el valor de "px-%-etc",
+    -style que tiene el valor de "italic",
+     poner el texto en diagonal,
+    -family que tiene el valor de "fuente",
+    */
+
+ 
+}
+.enlace{
+    display: inline-block;
+    border: 1px solid ;
+    padding: 10px 25px;
+    color: crimson;
+    text-decoration-line: underline;
+    /* contiene 3 propiedades text-decoration: line style color ; */
+    
+    /*  underline= subraya el texto
+        overline= pone una linea arriba del texto
+        line-through= pone una linea en medio del texto
+        none= quita la linea del texto
+    */
+
+    text-decoration-style: none;
+    /*  text-decoration-style:; definira el estilo de la linea */
+
+    /*  solid= pone una linea continua
+        double= pone una linea doble
+        dotted= pone una linea punteada
+        dashed= pone una linea discontinua
+        wavy= pone una linea ondulada
+    */
+
+    text-decoration-color: #9ab1f6;/* definira el color de la linea */
+ 
+}
+
+
+

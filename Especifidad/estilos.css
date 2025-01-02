@@ -1,0 +1,61 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+/* 
+.enlaces{
+    display: inline-block;
+    text-decoration: none;
+    color:yellow; 
+    background-color: green;
+    padding: 30px 20px; 
+}
+
+
+.block{
+ display: none;   
+ opacity: 0.5;
+} 
+ */
+
+/* 
+
+~Especifidad~
+
+1000  Inline styles code
+- 
+100 IDs
+- 
+10  Clases, atributos, pseudoclases
+- 
+1  Elementos, pseudoelementos
+
+*/
+
+.header{ 
+  
+    height: 400px;
+    background-color: red;
+    color: white;
+    height: 300px;
+
+}
+ 
+.header {
+    height: 600px;
+}
+
+
+
+
+.header {
+    height: 300px;
+}
+
+
+
+
+
+

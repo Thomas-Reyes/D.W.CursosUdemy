@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.opinion{
+    padding: 2em;
+    width: 70%;
+    font-size:50px;
+    margin: 40px auto;
+    box-shadow: 8px 8px 16px rgba(0,0,0,0.5);
+}
+
+.title{
+    font-size: 1rem;
+}
+
+.text{
+    font-size: 20px;
+}
+
+/* 
+viewport width= vw: es el ancho del area visible del navegador
+viewport height= vh: es el largo del area visible del navegador
+
+*/
+
+.container{
+    max-width: 500px; /* maximo del ancho */
+    max-height: 500px; /* maximo del alto */
+    min-width: 300px; /* minimo del ancho */
+    min-height: 300px; /* minimo del alto */
+
+    width: 200px;
+    height: 1200px;
+    background: steelblue;
+    margin: 30px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

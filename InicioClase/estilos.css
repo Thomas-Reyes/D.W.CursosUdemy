@@ -1,0 +1,58 @@
+/* RETO1 */
+ h2{
+    color: steelblue;
+    font-size: 40px;   
+ } 
+ 
+ .alex{
+    border-color: red;
+    border-style: solid;  
+ }
+
+
+#section{
+    border-color: rgb(157, 255, 0);
+    border-style: solid;  
+}
+
+.titulo{
+    text-align: center;
+}
+
+.😀{
+    color: red;
+    font-size: 30px;
+}
+
+/* RETO2 */
+ [href]{
+    text-decoration: none; /* quitar subrayado */
+ }
+
+a[href="https://alexcgdesign.com/inicio"]{
+  color: rgb(226, 43, 43);
+  font-size: 30px;
+}
+
+[href^="hsttps"]{ /* para aplicar el cambio solo al filtro inicial */
+    color: rgb(255, 0, 242);
+    font-size: 20px;
+}
+
+[href$="org"]{  /* para aplicar el cambio solo al filtro final */
+    background-color: aqua;
+    color: white;
+    font-size: 20px;
+}
+
+[href*="alexcgdesign"]{ /* para aplicar el cambio solo al filtro de la palabra señalada */
+    color: rgb(0, 255, 0);
+    background-color: blue;
+    font-size: 20px;
+}
+
+
+
+
+
+

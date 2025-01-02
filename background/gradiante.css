@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.container{
+    width: 80%;
+    height: 400px;
+    margin: 30px auto;
+    background: steelblue;
+/*  background-image: linear-gradient , sirve para hacer gradientes/dregadados 
+    el orden es(direccion,color stop(%de donde para el color),color stop )*/
+
+    background-image:   
+    linear-gradient(to top    , crimson 30%, pink  )  
+ 
+}
+
+.header{
+    padding: 0.1px;
+    height: 650px;
+    background-image:linear-gradient(#33333373,#dd18187c), url(jigar-panchal-VamLqteS3uo-unsplash.png); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.title{
+    font-size: 60px;
+    text-align: center; 
+    margin-top: 270px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+

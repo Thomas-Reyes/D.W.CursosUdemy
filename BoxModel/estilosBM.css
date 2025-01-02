@@ -1,0 +1,44 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    color: rgb(0, 0, 0);
+}
+
+body{
+    margin: 0;
+}
+
+
+.box{
+ width: 300px;
+ height: 150px;
+}
+
+.box1{
+    
+    background-color: blue; 
+    margin-top: 20px  ;
+    margin-left: 30px;
+    border: 2px solid black;
+}
+
+.box2{
+    border: 2px dotted rgb(255, 255, 255); /*  */
+    padding: 20px 30px 40px 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: red;
+    overflow: hidden; /* para ocultar todo lo que se desborde  */
+}
+
+
+
+
+
+

@@ -1,0 +1,97 @@
+:root{
+    --color: crimson;
+
+
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    font-size: 3rem;
+    color: crimson;
+    margin: 40px 0;
+    text-align: center;
+    font-family: monospace;
+}
+
+/* @media <media-type> and (expression){
+  .title{
+        font-size: 6rem;
+    }
+        } */
+ /*
+    
+    @media all = para todos
+    @media speech = para lectura en voz alta
+    @media handheld = para dispositivos moviles
+    @media tv = para televisores   
+    @media projection= para proyectores
+    @media braille= para lectura en braille
+    @media embossed= para impresoras en relieve
+    @media tty = para dispositivos de texto
+    @media aural = para lectura en voz alta
+    @media grid = para dispositivos con grid
+    @media 3d-glasses = para dispositivos con lentes 3d
+    @media hover = para dispositivos con hover
+    los media queri sirven para que se apliquen
+    los estilos en diferentes dispositivos      */
+
+/*  @media print = para imprimir   */
+@media print{
+    .title
+{
+    color: steelblue;
+    font-size: 5rem;
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+}
+
+
+@media screen and (min-width: 425px)  
+{
+    .title{
+        background: #15ff00;
+        color: var(--color);
+    }
+} 
+ 
+    
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
